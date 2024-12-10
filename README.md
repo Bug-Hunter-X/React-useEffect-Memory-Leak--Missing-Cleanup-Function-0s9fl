@@ -1,0 +1,3 @@
+# React useEffect Memory Leak: Missing Cleanup Function
+
+This repository demonstrates a common error in React's `useEffect` hook: forgetting to include a cleanup function to prevent memory leaks.  The `bug.js` file shows the problematic code. The `bugSolution.js` file shows how to fix it. This is crucial when dealing with asynchronous operations like fetching data, event listeners, or subscriptions.
